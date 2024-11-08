@@ -1,2 +1,2 @@
-# qa-turbotalent
-e2e tests for Turbotalent's test
+# qa-turbotenant
+e2e tests for Turbotenant's test
