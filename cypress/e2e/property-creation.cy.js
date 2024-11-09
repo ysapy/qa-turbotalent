@@ -10,6 +10,9 @@ describe('Validate Properties creation', () => {
         loginPage.login('ysa-ortiz', 'ysapy');
     })
 
+    /*
+    * TC ID: 5
+    */
     it('Validate that a new property can be created', () => {
         propertyList.addPropertyVisible();
         propertyList.clickOnAddProperty();
@@ -20,6 +23,9 @@ describe('Validate Properties creation', () => {
         propertyList.propertyRentValueVisibleInList('10000');
     })
 
+    /*
+    * TC ID: 6
+    */
     it('Validate that Title is required to create a property', () => {
         propertyList.addPropertyVisible();
         propertyList.clickOnAddProperty();
@@ -28,6 +34,9 @@ describe('Validate Properties creation', () => {
         propertyList.propertyNameNotVisibleInList(' ');
     })
 
+    /*
+    * TC ID: 8
+    */
     it('Validate that Rent doesnt accept non numeric values', () => {
         propertyList.addPropertyVisible();
         propertyList.clickOnAddProperty();
